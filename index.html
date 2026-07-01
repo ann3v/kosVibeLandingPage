@@ -1,0 +1,684 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  />
+  <title>KosVibe | Discover Kosovo Like Never Before</title>
+  <meta
+    name="description"
+    content="KosVibe helps tourists and local residents discover restaurants, cafés, attractions, cultural sites, events, maps, and more across Kosovo in one modern mobile app."
+  />
+  <meta
+    name="theme-color"
+    content="#0b1020"
+  />
+  <meta property="og:title" content="KosVibe | Discover Kosovo Like Never Before" />
+  <meta
+    property="og:description"
+    content="Explore Kosovo in one place with KosVibe — restaurants, attractions, events, maps, favorites, weather, and more."
+  />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="./kosVibeImages/kosVibeLogo.jpeg" />
+  <meta property="og:url" content="/" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="KosVibe | Discover Kosovo Like Never Before" />
+  <meta
+    name="twitter:description"
+    content="A modern mobile app for discovering everything Kosovo has to offer in one place."
+  />
+
+  <link rel="preload" as="image" href="./kosVibeImages/kosVibeLogo.jpeg" />
+  <link rel="preconnect" href="https://api.fontshare.com" />
+  <link
+    href="https://api.fontshare.com/v2/css?f[]=general-sans@400,500,600,700&f[]=satoshi@400,500,700&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="styles.css" />
+
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "MobileApplication",
+      "name": "KosVibe",
+      "applicationCategory": "TravelApplication",
+      "operatingSystem": "Android",
+      "softwareVersion": "1.0.0",
+      "downloadUrl": "./assets/KosVibe.apk",
+      "description": "KosVibe is a mobile application that helps tourists and local residents discover restaurants, cafés, attractions, cultural heritage sites, natural destinations, local events, and more across Kosovo in one place.",
+      "creator": {
+        "@type": "Organization",
+        "name": "KosVibe"
+      }
+    }
+  </script>
+</head>
+<body id="top">
+  <a class="skip-link" href="#main-content">Skip to content</a>
+
+  <svg aria-hidden="true" focusable="false" style="position:absolute;width:0;height:0;overflow:hidden">
+    <symbol id="icon-utensils" viewBox="0 0 24 24">
+      <path d="M6 2v8M9 2v8M6 6h3M17 2v20M14 2c0 3 0 5 3 5s3-2 3-5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+    </symbol>
+
+    <symbol id="icon-camera" viewBox="0 0 24 24">
+      <path d="M4 7h3l2-2h6l2 2h3v11H4zM12 17a4 4 0 1 0 0-8 4 4 0 0 0 0 8z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+    </symbol>
+
+    <symbol id="icon-calendar" viewBox="0 0 24 24">
+      <path d="M7 2v4M17 2v4M3 9h18M5 5h14a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+    </symbol>
+
+    <symbol id="icon-bag" viewBox="0 0 24 24">
+      <path d="M6 8h12l-1 12H7L6 8zM9 8V6a3 3 0 0 1 6 0v2" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+    </symbol>
+
+    <symbol id="icon-map" viewBox="0 0 24 24">
+      <path d="M9 18 3 20V6l6-2 6 2 6-2v14l-6 2-6-2zM9 4v14M15 6v14" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+    </symbol>
+
+    <symbol id="icon-heart" viewBox="0 0 24 24">
+      <path d="M12 20s-7-4.35-9.5-8A5.5 5.5 0 0 1 12 5.5 5.5 5.5 0 0 1 21.5 12C19 15.65 12 20 12 20z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+    </symbol>
+
+    <symbol id="icon-weather" viewBox="0 0 24 24">
+      <path d="M6 16a4 4 0 1 1 1.2-7.82A5 5 0 0 1 17 10a3.5 3.5 0 1 1 .5 7H6zM8 2v2M3.8 4.8l1.4 1.4M2 9h2" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+    </symbol>
+
+    <symbol id="icon-currency" viewBox="0 0 24 24">
+      <path d="M12 3v18M16.5 7.5c0-1.93-1.8-3.5-4.5-3.5S7.5 5.57 7.5 7.5 9.3 11 12 11s4.5 1.57 4.5 3.5S14.7 18 12 18s-4.5-1.57-4.5-3.5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+    </symbol>
+
+    <symbol id="icon-search" viewBox="0 0 24 24">
+      <path d="M11 19a8 8 0 1 1 0-16 8 8 0 0 1 0 16zM21 21l-4.35-4.35" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+    </symbol>
+
+    <symbol id="icon-download" viewBox="0 0 24 24">
+      <path d="M12 3v12M7 10l5 5 5-5M4 20h16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+    </symbol>
+
+    <symbol id="icon-arrow-right" viewBox="0 0 24 24">
+      <path d="M5 12h14M13 5l7 7-7 7" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+    </symbol>
+
+    <symbol id="icon-check" viewBox="0 0 24 24">
+      <path d="M5 13l4 4L19 7" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+    </symbol>
+  </svg>
+
+  <div class="site-bg" aria-hidden="true">
+    <div class="site-bg__orb site-bg__orb--one"></div>
+    <div class="site-bg__orb site-bg__orb--two"></div>
+    <div class="site-bg__grid"></div>
+  </div>
+
+  <header class="site-header">
+    <div class="container">
+      <nav class="navbar" aria-label="Primary navigation">
+        <a class="brand" href="#top" aria-label="KosVibe homepage">
+          <img
+            class="brand__logo"
+            src="./kosVibeImages/kosVibeLogo.jpeg"
+            alt="KosVibe logo"
+            width="44"
+            height="44"
+          />
+          <span class="brand__meta">
+            <span class="brand__name">KosVibe</span>
+            <span class="brand__tagline">Explore Kosovo in one app</span>
+          </span>
+        </a>
+
+        <div class="navbar__links">
+          <a href="#about">About</a>
+          <a href="#features">Features</a>
+          <a href="#gallery">Gallery</a>
+          <a href="#download">Download</a>
+        </div>
+
+        <a class="button button--primary button--nav" href="./assets/KosVibe.apk" download>
+          <svg aria-hidden="true" width="18" height="18">
+            <use href="#icon-download"></use>
+          </svg>
+          <span>Download APK</span>
+        </a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <section class="hero section">
+      <div class="container hero__grid">
+        <div class="hero__content">
+          <span class="eyebrow">Travel smarter. Discover more. Experience Kosovo.</span>
+
+          <h1>Discover Kosovo Like Never Before</h1>
+
+          <p class="hero__subtitle">
+            KosVibe brings restaurants, cafés, attractions, cultural landmarks, local events,
+            marketplaces, and practical travel tools into one modern mobile experience for both
+            tourists and local residents.
+          </p>
+
+          <div class="hero__actions">
+            <a class="button button--primary button--large" href="./assets/KosVibe.apk" download>
+              <svg aria-hidden="true" width="18" height="18">
+                <use href="#icon-download"></use>
+              </svg>
+              <span>Download APK</span>
+            </a>
+
+            <a class="button button--secondary button--large" href="#features">
+              <span>Explore features</span>
+              <svg aria-hidden="true" width="18" height="18">
+                <use href="#icon-arrow-right"></use>
+              </svg>
+            </a>
+          </div>
+
+          <ul class="hero__highlights" role="list">
+            <li>Built with React Native and Expo</li>
+            <li>Powered by Supabase</li>
+            <li>Designed for tourists and locals</li>
+            <li>Fast, modern, and easy to use</li>
+          </ul>
+
+          <div class="hero__stats" aria-label="Key application highlights">
+            <article class="stat-card">
+              <span class="stat-card__value">All-in-one</span>
+              <span class="stat-card__label">Places, events, maps, and more</span>
+            </article>
+
+            <article class="stat-card">
+              <span class="stat-card__value">Modern UI</span>
+              <span class="stat-card__label">Clean design focused on discovery</span>
+            </article>
+
+            <article class="stat-card">
+              <span class="stat-card__value">Tourism-first</span>
+              <span class="stat-card__label">Built to promote Kosovo and local business</span>
+            </article>
+          </div>
+        </div>
+
+        <div class="hero__visual" aria-label="KosVibe app preview">
+          <div class="hero__glow"></div>
+
+          <div class="phone-stage">
+            <div class="floating-badge floating-badge--top">
+              <span class="floating-badge__label">Live weather</span>
+              <strong>26°C in Prizren</strong>
+            </div>
+
+            <div class="floating-badge floating-badge--bottom">
+              <span class="floating-badge__label">Exchange rates</span>
+              <strong>EUR • USD • CHF</strong>
+            </div>
+
+            <article class="phone phone--primary" aria-label="KosVibe main preview screen">
+              <div class="phone__frame">
+                <div class="phone__status">
+                  <span>9:41</span>
+                  <span>5G &nbsp; 100%</span>
+                </div>
+
+                <div class="phone__screen phone__screen--primary">
+                  <div class="screen-header">
+                    <span class="screen-badge">KosVibe</span>
+                    <div class="screen-avatar" aria-hidden="true"></div>
+                  </div>
+
+                  <div class="screen-hero-card">
+                    <span class="screen-kicker">Featured destination</span>
+                    <p class="screen-title">Explore Prizren, culture, cafés, and historic streets.</p>
+                    <div class="screen-tags" aria-hidden="true">
+                      <span>Food</span>
+                      <span>Nature</span>
+                      <span>Culture</span>
+                    </div>
+                  </div>
+
+                  <div class="screen-panel">
+                    <div class="screen-panel__row">
+                      <div class="screen-panel__dot"></div>
+                      <div>
+                        <strong>Restaurants nearby</strong>
+                        <small>Top local picks in one tap</small>
+                      </div>
+                    </div>
+
+                    <div class="screen-panel__row">
+                      <div class="screen-panel__dot"></div>
+                      <div>
+                        <strong>Interactive maps</strong>
+                        <small>Find places faster</small>
+                      </div>
+                    </div>
+
+                    <div class="screen-panel__row">
+                      <div class="screen-panel__dot"></div>
+                      <div>
+                        <strong>Events this week</strong>
+                        <small>Stay updated in real time</small>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="screen-bottom-nav" aria-hidden="true">
+                    <span class="is-active"></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                  </div>
+                </div>
+              </div>
+            </article>
+
+            <article class="phone phone--secondary phone--secondary-a" aria-hidden="true">
+              <div class="phone__frame">
+                <div class="phone__screen phone__screen--secondary">
+                  <div class="mini-shot mini-shot--map">
+                    <div class="mini-shot__chip">Interactive map</div>
+                    <div class="mini-shot__map-grid"></div>
+                    <div class="mini-shot__pin mini-shot__pin--one"></div>
+                    <div class="mini-shot__pin mini-shot__pin--two"></div>
+                    <div class="mini-shot__pin mini-shot__pin--three"></div>
+                  </div>
+                </div>
+              </div>
+            </article>
+
+            <article class="phone phone--secondary phone--secondary-b" aria-hidden="true">
+              <div class="phone__frame">
+                <div class="phone__screen phone__screen--secondary">
+                  <div class="mini-shot mini-shot--list">
+                    <div class="mini-shot__chip">Popular this week</div>
+                    <div class="mini-shot__item"></div>
+                    <div class="mini-shot__item"></div>
+                    <div class="mini-shot__item"></div>
+                    <div class="mini-shot__item"></div>
+                  </div>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--about" id="about">
+      <div class="container">
+        <div class="section-heading">
+          <span class="eyebrow">About KosVibe</span>
+          <h2>One mobile platform for discovering the best of Kosovo.</h2>
+          <p>
+            KosVibe was created to simplify exploration. Instead of jumping between scattered
+            websites, users can discover places, events, and useful travel information through one
+            clean, reliable, and user-focused application.
+          </p>
+        </div>
+
+        <div class="about-grid">
+          <article class="about-card about-card--featured">
+            <span class="about-card__label">Our mission</span>
+            <h3>Make exploring Kosovo easier, faster, and more enjoyable.</h3>
+            <p>
+              KosVibe helps tourists plan memorable experiences while giving local residents a more
+              convenient way to discover restaurants, attractions, events, and hidden gems across
+              the country.
+            </p>
+          </article>
+
+          <article class="about-card">
+            <span class="about-card__label">Why it was built</span>
+            <p>
+              The project began as a university software engineering initiative with a clear goal:
+              create a modern digital product that promotes tourism, improves accessibility to local
+              information, and helps businesses become more visible.
+            </p>
+          </article>
+
+          <article class="about-card">
+            <span class="about-card__label">Technology</span>
+            <p>
+              Built with React Native and Expo, and supported by Supabase, KosVibe combines a fast
+              mobile interface with dynamic content, authentication, and real-time data management.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--features" id="features">
+      <div class="container">
+        <div class="section-heading">
+          <span class="eyebrow">Features</span>
+          <h2>Everything users need to explore, plan, and enjoy more.</h2>
+          <p>
+            KosVibe is designed to be practical and visually refined, bringing together discovery,
+            convenience, and local insight in one premium mobile experience.
+          </p>
+        </div>
+
+        <div class="features-grid">
+          <article class="feature-card">
+            <div class="feature-card__icon-wrap" aria-hidden="true">
+              <svg class="feature-card__icon" width="22" height="22">
+                <use href="#icon-utensils"></use>
+              </svg>
+            </div>
+            <h3>Restaurants</h3>
+            <p>Browse dining options across Kosovo and discover great places to eat with less effort.</p>
+          </article>
+
+          <article class="feature-card">
+            <div class="feature-card__icon-wrap" aria-hidden="true">
+              <svg class="feature-card__icon" width="22" height="22">
+                <use href="#icon-camera"></use>
+              </svg>
+            </div>
+            <h3>Tourist Attractions</h3>
+            <p>Find landmarks, scenic destinations, and must-visit places for every kind of traveler.</p>
+          </article>
+
+          <article class="feature-card">
+            <div class="feature-card__icon-wrap" aria-hidden="true">
+              <svg class="feature-card__icon" width="22" height="22">
+                <use href="#icon-calendar"></use>
+              </svg>
+            </div>
+            <h3>Events</h3>
+            <p>Stay informed about local happenings, cultural programs, and upcoming experiences.</p>
+          </article>
+
+          <article class="feature-card">
+            <div class="feature-card__icon-wrap" aria-hidden="true">
+              <svg class="feature-card__icon" width="22" height="22">
+                <use href="#icon-bag"></use>
+              </svg>
+            </div>
+            <h3>Marketplace</h3>
+            <p>Support local visibility with a dedicated space for products, services, and opportunities.</p>
+          </article>
+
+          <article class="feature-card">
+            <div class="feature-card__icon-wrap" aria-hidden="true">
+              <svg class="feature-card__icon" width="22" height="22">
+                <use href="#icon-map"></use>
+              </svg>
+            </div>
+            <h3>Interactive Maps</h3>
+            <p>Navigate more confidently with location-based discovery and map-driven exploration.</p>
+          </article>
+
+          <article class="feature-card">
+            <div class="feature-card__icon-wrap" aria-hidden="true">
+              <svg class="feature-card__icon" width="22" height="22">
+                <use href="#icon-heart"></use>
+              </svg>
+            </div>
+            <h3>Favorites</h3>
+            <p>Save places and build a personalized shortlist for future visits and travel plans.</p>
+          </article>
+
+          <article class="feature-card">
+            <div class="feature-card__icon-wrap" aria-hidden="true">
+              <svg class="feature-card__icon" width="22" height="22">
+                <use href="#icon-weather"></use>
+              </svg>
+            </div>
+            <h3>Weather</h3>
+            <p>Check local conditions before heading out and plan your day with better context.</p>
+          </article>
+
+          <article class="feature-card">
+            <div class="feature-card__icon-wrap" aria-hidden="true">
+              <svg class="feature-card__icon" width="22" height="22">
+                <use href="#icon-currency"></use>
+              </svg>
+            </div>
+            <h3>Exchange Rates</h3>
+            <p>Give international visitors quick access to practical information while they explore.</p>
+          </article>
+
+          <article class="feature-card">
+            <div class="feature-card__icon-wrap" aria-hidden="true">
+              <svg class="feature-card__icon" width="22" height="22">
+                <use href="#icon-search"></use>
+              </svg>
+            </div>
+            <h3>Search</h3>
+            <p>Find destinations, categories, and useful content quickly through a streamlined interface.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--gallery" id="gallery">
+  <div class="container">
+    <div class="section-heading">
+      <span class="eyebrow">Gallery</span>
+      <h2>See KosVibe in action.</h2>
+      <p>
+        Explore a preview of the KosVibe experience through real application screenshots.
+      </p>
+    </div>
+
+    <div class="gallery-grid">
+      <figure class="gallery-card gallery-card--tall">
+        <img
+          src="./kosVibeImages/home.jpeg"
+          alt="KosVibe home screen"
+          width="600"
+          height="1200"
+          loading="lazy"
+        />
+        <figcaption>Home discovery screen</figcaption>
+      </figure>
+
+      <figure class="gallery-card">
+        <img
+          src="./kosVibeImages/map.jpeg"
+          alt="KosVibe interactive map screen"
+          width="600"
+          height="1200"
+          loading="lazy"
+        />
+        <figcaption>Interactive map experience</figcaption>
+      </figure>
+
+      <figure class="gallery-card">
+        <img
+          src="./kosVibeImages/events.jpeg"
+          alt="KosVibe events screen"
+          width="600"
+          height="1200"
+          loading="lazy"
+        />
+        <figcaption>Local events and activities</figcaption>
+      </figure>
+
+      <figure class="gallery-card">
+        <img
+          src="./kosVibeImages/stories.jpeg"
+          alt="KosVibe stories screen"
+          width="600"
+          height="1200"
+          loading="lazy"
+        />
+        <figcaption>Stories and featured content</figcaption>
+      </figure>
+
+      <figure class="gallery-card">
+        <img
+          src="./kosVibeImages/localmarket.jpeg"
+          alt="KosVibe local marketplace screen"
+          width="600"
+          height="1200"
+          loading="lazy"
+        />
+        <figcaption>Local marketplace section</figcaption>
+      </figure>
+
+      <figure class="gallery-card gallery-card--wide">
+        <img
+          src="./kosVibeImages/home.jpeg"
+          alt="KosVibe featured app preview"
+          width="1200"
+          height="700"
+          loading="lazy"
+        />
+        <figcaption>Modern mobile experience built for discovering Kosovo</figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+    <section class="section section--download" id="download">
+      <div class="container">
+        <div class="download-card">
+          <div class="download-card__intro">
+            <span class="eyebrow">Download KosVibe</span>
+            <h2>Start exploring Kosovo with one simple download.</h2>
+            <p>
+              Install the Android APK and access a modern mobile experience designed to help users
+              discover places, plan activities, and connect with what Kosovo has to offer.
+            </p>
+          </div>
+
+          <div class="download-card__grid">
+            <div class="download-panel download-panel--meta">
+              <!-- Update release metadata before publishing -->
+              <h3>Release details</h3>
+
+              <dl class="release-list">
+                <div class="release-list__item">
+                  <dt>App Version</dt>
+                  <dd>v1.0.0</dd>
+                </div>
+
+                <div class="release-list__item">
+                  <dt>Android Version</dt>
+                  <dd>Android 8.0+</dd>
+                </div>
+
+                <div class="release-list__item">
+                  <dt>APK Size</dt>
+                  <dd>48 MB</dd>
+                </div>
+
+                <div class="release-list__item">
+                  <dt>Last Updated</dt>
+                  <dd>July 2026</dd>
+                </div>
+              </dl>
+
+              <a class="button button--primary button--large button--full" href="./assets/KosVibe.apk" download>
+                <svg aria-hidden="true" width="18" height="18">
+                  <use href="#icon-download"></use>
+                </svg>
+                <span>Download APK</span>
+              </a>
+            </div>
+
+            <div class="download-panel download-panel--steps">
+              <h3>Installation instructions</h3>
+
+              <ol class="steps-list">
+                <li>
+                  <span class="steps-list__number">1</span>
+                  <div>
+                    <strong>Download APK</strong>
+                    <p>Save the installation file directly to your Android device.</p>
+                  </div>
+                </li>
+
+                <li>
+                  <span class="steps-list__number">2</span>
+                  <div>
+                    <strong>Enable Unknown Sources</strong>
+                    <p>Allow app installation from sources outside the Play Store when prompted.</p>
+                  </div>
+                </li>
+
+                <li>
+                  <span class="steps-list__number">3</span>
+                  <div>
+                    <strong>Install</strong>
+                    <p>Open the downloaded file and follow the installation steps.</p>
+                  </div>
+                </li>
+
+                <li>
+                  <span class="steps-list__number">4</span>
+                  <div>
+                    <strong>Open KosVibe</strong>
+                    <p>Launch the app and start discovering Kosovo with a better mobile experience.</p>
+                  </div>
+                </li>
+              </ol>
+
+              <ul class="download-checks" role="list">
+                <li>
+                  <svg aria-hidden="true" width="18" height="18">
+                    <use href="#icon-check"></use>
+                  </svg>
+                  <span>Simple installation flow</span>
+                </li>
+                <li>
+                  <svg aria-hidden="true" width="18" height="18">
+                    <use href="#icon-check"></use>
+                  </svg>
+                  <span>Optimized for Android devices</span>
+                </li>
+                <li>
+                  <svg aria-hidden="true" width="18" height="18">
+                    <use href="#icon-check"></use>
+                  </svg>
+                  <span>Built for speed and usability</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer__grid">
+      <div class="footer__brand">
+        <a class="brand brand--footer" href="#top" aria-label="KosVibe homepage">
+          <img
+            class="brand__logo"
+            src="./kosVibeImages/kosVibeLogo.jpeg"
+            alt="KosVibe logo"
+            width="40"
+            height="40"
+          />
+          <span class="brand__meta">
+            <span class="brand__name">KosVibe</span>
+            <span class="brand__tagline">Made with ❤️ for Kosovo</span>
+          </span>
+        </a>
+
+        <p class="footer__copy">
+          &copy; 2026 KosVibe. All rights reserved.
+        </p>
+      </div>
+
+      <div class="footer__links">
+        <a href="https://github.com/ann3v" target="_blank" rel="noopener noreferrer">
+          GitHub
+        </a>
+        <a href="mailto:arditavdiu637@gmail.com">
+          Email
+        </a>
+      </div>
+    </div>
+  </footer>
+  <script src="script.js" defer></script>
+</body>
+</html>
